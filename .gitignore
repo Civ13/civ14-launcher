@@ -1,0 +1,9 @@
+initialized
+tools/git/
+wip/
+app/Resources/
+app/bin/
+app/BuildFiles/
+app/Content.Client/
+app/RobustToolbox/
+launcher.bat
