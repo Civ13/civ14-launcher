@@ -5,6 +5,9 @@ if not exist "./../initialized" (
 cd..
 cd app/
 call "./../tools/git/bin/git.exe" pull
-cd RobustToolbox
+cd RobustToolbox/
+call "./../../tools/git/bin/git.exe" pull
+cd..
+cd Content.Client/
 call "./../../tools/git/bin/git.exe" pull
 echo Finished updating.

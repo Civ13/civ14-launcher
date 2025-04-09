@@ -9,4 +9,6 @@ call "./../tools/git/bin/git.exe" remote add origin https://github.com/civ13/civ
 call "./../tools/git/bin/git.exe" branch --set-upstream-to=origin/master master
 call "./../tools/git/bin/git.exe" fetch --depth=1 origin master
 call "./../tools/git/bin/git.exe" pull origin master
-call "./../tools/git/bin/git.exe" git clone https://github.com/space-wizards/RobustToolbox RobustToolbox
+call "./../tools/git/bin/git.exe" clone https://github.com/space-wizards/RobustToolbox RobustToolbox
+cd bin/
+call "./../../tools/git/bin/git.exe" clone https://github.com/taislin/civ14_compiled_client/ Content.Client
