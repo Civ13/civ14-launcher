@@ -1,4 +1,6 @@
 @echo off
 TITLE Civ14 Client Updater
-call ".git/bin/git.exe" pull
+cd scripts/
+call "./../git/bin/git.exe" pull
+cd..
 echo Finished updating the launcher.
