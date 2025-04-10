@@ -1,3 +1,5 @@
+cd..
+cd..
 if not exist "./../initialized" (
   echo initialized > ./../initialized
   echo.

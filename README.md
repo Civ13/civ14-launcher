@@ -1,4 +1,4 @@
-# civ14-client
+# civ14-launcher
 
 The is a windows client that includes an auto-updater to fetch the latest code from the git repository automatically.
 
