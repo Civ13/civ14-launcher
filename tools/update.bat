@@ -9,12 +9,11 @@ if not exist "./../initialized" (
 )
 cd..
 cd app/
-call "./../tools/git/bin/git.exe" pull origin master --allow-unrelated-histories
-cd RobustToolbox/
-call "./../../tools/git/bin/git.exe" pull origin master --allow-unrelated-histories
+call "./../tools/git/bin/git.exe" reset --hard origin/master
+call "./../../tools/git/bin/git.exe" reset --hard origin/master
 cd..
 cd Content.Client/
-call "./../../tools/git/bin/git.exe" pull origin master --allow-unrelated-histories
+call "./../../tools/git/bin/git.exe" reset --hard origin/master
 cd..
 cd..
 cd tools/
