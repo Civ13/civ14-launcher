@@ -33,11 +33,10 @@ echo.
 echo [93m    Unpacking Robust Toolbox Engine...[0m
 echo.
 call "./../tools/git/bin/git.exe" clone https://github.com/space-wizards/RobustToolbox RobustToolbox
-mkdir bin
-cd bin/
 echo.
 echo [93m    Unpacking client executables...[0m
 echo.
-call "./../../tools/git/bin/git.exe" clone https://github.com/taislin/civ14_compileds/ executables
+call "./../../tools/git/bin/git.exe" clone https://github.com/taislin/civ14_compileds/ bin
+cd bin
 call "./../../tools/git/bin/git.exe" branch --set-upstream-to=origin/master master
 echo [93mFinished![0m
