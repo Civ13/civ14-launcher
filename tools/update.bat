@@ -10,9 +10,7 @@ if not exist "./../initialized" (
 cd..
 cd app/
 call "./../tools/git/bin/git.exe" reset --hard origin/master
-call "./../../tools/git/bin/git.exe" reset --hard origin/master
-cd..
-cd executables/
+cd bin/
 call "./../../tools/git/bin/git.exe" reset --hard origin/master
 cd..
 cd..
