@@ -12,7 +12,7 @@ cd app/
 call "./../tools/git/bin/git.exe" reset --hard origin/master
 call "./../../tools/git/bin/git.exe" reset --hard origin/master
 cd..
-cd Content.Client/
+cd executables/
 call "./../../tools/git/bin/git.exe" reset --hard origin/master
 cd..
 cd..
